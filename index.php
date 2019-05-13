@@ -3,6 +3,6 @@
   <title>Funcional</title>
  </head>
  <body>
- <?php echo "<p>Olá Mundo</p>"; ?>
+ <?php echo "<p>Funcional</p>"; ?>
  </body>
 </html>
