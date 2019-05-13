@@ -1,17 +1,3 @@
 {
-  "repositories": [
-      {"type": "vcs", "url": "git@code.facedigital.net:labs/components/codeigniter/formatador.git"},
-      {"type": "vcs", "url": "git@code.facedigital.net:labs/components/codeigniter/installers.git"},
-      {"type": "vcs", "url": "git@code.facedigital.net:labs/components/codeigniter/parser.git"}
-  ],
-  "scripts": {
-   "post-update-cmd":  ["find ./application -name '.git' | xargs rm -rf"],
-   "post-install-cmd": ["find ./application -name '.git' | xargs rm -rf"]
-  },
-  "require": {
-    "php": ">=5.4",
-    "facedigital/codeigniter-installers": "*",
-    "facedigital/formatador": "*",
-    "facedigital/parser": "*"
-  }
+ 
 }
