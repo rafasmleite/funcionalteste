@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "679c263031267e5c52ea3f6c5272441b",
+    "packages": [
+        {
+            "name": "facedigital/codeigniter-installers",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@code.facedigital.net:labs/components/codeigniter/installers.git",
+                "reference": "d812880929e94de2ee30a468a82b8daf508c86b7"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installer\\CodeigniterInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installer": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Hill",
+                    "email": "jhill9693@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andrei Rosseti",
+                    "email": "andrei@facedigital.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Composer installers for CodeIgniter",
+            "keywords": [
+                "codeigniter",
+                "composer",
+                "core",
+                "helpers",
+                "installer",
+                "library"
+            ],
+            "time": "2018-01-09T02:10:42+00:00"
+        },
+        {
+            "name": "facedigital/formatador",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@code.facedigital.net:labs/components/codeigniter/formatador.git",
+                "reference": "e929461c91a20f1cb23c82e5a53abb8f29490bc1"
+            },
+            "type": "codeigniter-helper",
+            "authors": [
+                {
+                    "name": "Andrei Rosseti",
+                    "email": "andrei@facedigital.com.br"
+                }
+            ],
+            "time": "2018-01-09T11:15:51+00:00"
+        },
+        {
+            "name": "facedigital/parser",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@code.facedigital.net:labs/components/codeigniter/parser.git",
+                "reference": "512f7a361f84933593be74df6c5fa61d027ff075"
+            },
+            "type": "codeigniter-library",
+            "authors": [
+                {
+                    "name": "Andrei Rosseti",
+                    "email": "andrei@facedigital.com.br"
+                }
+            ],
+            "time": "2018-01-11T12:19:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": []
+}
